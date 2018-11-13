@@ -4,8 +4,12 @@
   "description": "An app to browse gifs using giphy apis.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss -o css"
   },
   "author": "Ankit Karnany <ankitkarnany@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
 }
